@@ -3,6 +3,11 @@ directx-demo
 
 DirectX 3D 入门练习,目前主要是DirectX9的。
 
+开发环境：
+
+1 DirectX9例子:windows xp sp3(VMware10) + directx9.0c + VS2005
+
+
 代码来源：
 
 1.DirectX9.0 3D 游戏开发编程基础 Frank D.Luna 著
