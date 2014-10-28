@@ -1,4 +1,4 @@
-DirectX-demo
+DirectX Demo
 ========
 
 ## 简介
@@ -11,8 +11,8 @@ DirectX-demo
   * 实验环境：windows xp sp3(VMware10) + directx9.0c + VS2005 
   * 环境设置：TOOLS->Projects and Solutions->VC++ Directories 
     - 头文件(例如“D:\Microsoft DirectX SDK (November 2008)\Include”). 
-    - 库(例如32位操作系统使用“D:\Microsoft DirectX SDK (November 2008)\Lib\x86”). 
+    - 库(例如“D:\Microsoft DirectX SDK (November 2008)\Lib\x86”). 
   * 项目属性配置:工程名字上右键 Project->Properties->Linker->Input Folder
-    - 头文件 d3d9.lib d3dx9.lib winmm.lib 
+    - 库 d3d9.lib d3dx9.lib winmm.lib 
 
 2. DirectX11例子
