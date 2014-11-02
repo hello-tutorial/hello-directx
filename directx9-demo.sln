@@ -1,31 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Init", "directx9\01_Init\01_Init.vcproj", "{36CB6C1A-82C0-41CC-9521-C43195559A5F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Init", "01_Init\01_Init.vcproj", "{36CB6C1A-82C0-41CC-9521-C43195559A5F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Triangle", "directx9\02_Triangle\02_Triangle.vcproj", "{DE5A6CD3-C851-408F-A6CA-D263C2DF4B2B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Triangle", "02_Triangle\02_Triangle.vcproj", "{DE5A6CD3-C851-408F-A6CA-D263C2DF4B2B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Cube", "directx9\03_Cube\03_Cube.vcproj", "{D97A9735-988E-41BA-BD6E-3295A3A7BCD0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Cube", "03_Cube\03_Cube.vcproj", "{D97A9735-988E-41BA-BD6E-3295A3A7BCD0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_Teapot", "directx9\04_Teapot\04_Teapot.vcproj", "{D6D45164-847D-48A3-B78F-B92EAB335B3C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_Teapot", "04_Teapot\04_Teapot.vcproj", "{D6D45164-847D-48A3-B78F-B92EAB335B3C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_D3DXCreate", "directx9\05_D3DXCreate\05_D3DXCreate.vcproj", "{C5D30ABA-57FC-49E2-95CE-F6B7AE7646B9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_D3DXCreate", "05_D3DXCreate\05_D3DXCreate.vcproj", "{C5D30ABA-57FC-49E2-95CE-F6B7AE7646B9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_ColorTriangle", "directx9\06_ColorTriangle\06_ColorTriangle.vcproj", "{3DDF9D91-4F0B-46D0-969E-AE5CA91DCB99}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_ColorTriangle", "06_ColorTriangle\06_ColorTriangle.vcproj", "{3DDF9D91-4F0B-46D0-969E-AE5CA91DCB99}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_LitPyramid", "directx9\07_LitPyramid\07_LitPyramid.vcproj", "{04E06E1D-6647-4FE7-AFEF-84FD5F2F549D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_LitPyramid", "07_LitPyramid\07_LitPyramid.vcproj", "{04E06E1D-6647-4FE7-AFEF-84FD5F2F549D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_DirectionalLight", "directx9\08_DirectionalLight\08_DirectionalLight.vcproj", "{A8B6294C-3186-434E-AD1B-4D8F892A014C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_DirectionalLight", "08_DirectionalLight\08_DirectionalLight.vcproj", "{A8B6294C-3186-434E-AD1B-4D8F892A014C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_PointLight", "directx9\09_PointLight\09_PointLight.vcproj", "{EAEC37C3-B354-4B4D-9BF9-70F00BEB79D0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_PointLight", "09_PointLight\09_PointLight.vcproj", "{EAEC37C3-B354-4B4D-9BF9-70F00BEB79D0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_SpotLight", "directx9\10_SpotLight\10_SpotLight.vcproj", "{87B439E9-88A5-460B-BCEA-90D4639C2000}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_SpotLight", "10_SpotLight\10_SpotLight.vcproj", "{87B439E9-88A5-460B-BCEA-90D4639C2000}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_TexQuad", "directx9\11_TexQuad\11_TexQuad.vcproj", "{783C62F4-827E-4A09-84D6-0B1D3789601F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_TexQuad", "11_TexQuad\11_TexQuad.vcproj", "{783C62F4-827E-4A09-84D6-0B1D3789601F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_AddressModes", "directx9\12_AddressModes\12_AddressModes.vcproj", "{7F3FD16E-9CA5-47F9-9831-B761AA66B26E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_AddressModes", "12_AddressModes\12_AddressModes.vcproj", "{7F3FD16E-9CA5-47F9-9831-B761AA66B26E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_TexCube", "directx9\13_TexCube\13_TexCube.vcproj", "{56DEA422-C528-47E6-AB18-44AD4C0A6F6C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_TexCube", "13_TexCube\13_TexCube.vcproj", "{56DEA422-C528-47E6-AB18-44AD4C0A6F6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
