@@ -27,6 +27,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_AddressModes", "12_Addre
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_TexCube", "13_TexCube\13_TexCube.vcproj", "{56DEA422-C528-47E6-AB18-44AD4C0A6F6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_MtrlAlpha", "14_MtrlAlpha\14_MtrlAlpha.vcproj", "{E34A212C-848C-4AC6-A862-43CB20833ADA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_TexAlpha", "15_TexAlpha\15_TexAlpha.vcproj", "{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -85,6 +89,14 @@ Global
 		{56DEA422-C528-47E6-AB18-44AD4C0A6F6C}.Debug|Win32.Build.0 = Debug|Win32
 		{56DEA422-C528-47E6-AB18-44AD4C0A6F6C}.Release|Win32.ActiveCfg = Release|Win32
 		{56DEA422-C528-47E6-AB18-44AD4C0A6F6C}.Release|Win32.Build.0 = Release|Win32
+		{E34A212C-848C-4AC6-A862-43CB20833ADA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E34A212C-848C-4AC6-A862-43CB20833ADA}.Debug|Win32.Build.0 = Debug|Win32
+		{E34A212C-848C-4AC6-A862-43CB20833ADA}.Release|Win32.ActiveCfg = Release|Win32
+		{E34A212C-848C-4AC6-A862-43CB20833ADA}.Release|Win32.Build.0 = Release|Win32
+		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Debug|Win32.Build.0 = Debug|Win32
+		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Release|Win32.ActiveCfg = Release|Win32
+		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
