@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_MtrlAlpha", "14_MtrlAlph
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_TexAlpha", "15_TexAlpha\15_TexAlpha.vcproj", "{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_StencilMirror", "16_StencilMirror\16_StencilMirror.vcproj", "{82A18A0F-230F-46A0-AAA2-0840778662CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -97,6 +99,10 @@ Global
 		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Debug|Win32.Build.0 = Debug|Win32
 		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Release|Win32.ActiveCfg = Release|Win32
 		{71F7BA89-4B37-4209-B4F1-C4C49AC082FC}.Release|Win32.Build.0 = Release|Win32
+		{82A18A0F-230F-46A0-AAA2-0840778662CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82A18A0F-230F-46A0-AAA2-0840778662CA}.Debug|Win32.Build.0 = Debug|Win32
+		{82A18A0F-230F-46A0-AAA2-0840778662CA}.Release|Win32.ActiveCfg = Release|Win32
+		{82A18A0F-230F-46A0-AAA2-0840778662CA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
