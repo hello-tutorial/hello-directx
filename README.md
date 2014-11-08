@@ -1,6 +1,3 @@
-DirectX Demo
-========
-
 ## DirectX9入门练习
 
 ### 实验环境：windows xp sp3(VMware10) + directx9.0c + VS2005 
