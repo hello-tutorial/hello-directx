@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_ID3DXFont", "19_ID3DXFon
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_CFont", "20_CFont\20_CFont.vcproj", "{04736B6C-5706-4E9F-BA3B-832C80860222}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22_D3DXCreateMeshFVF", "22_D3DXCreateMeshFVF\22_D3DXCreateMeshFVF.vcproj", "{F9CB92BE-6949-4374-B500-E528EFDEF071}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -133,6 +135,10 @@ Global
 		{04736B6C-5706-4E9F-BA3B-832C80860222}.Debug|Win32.Build.0 = Debug|Win32
 		{04736B6C-5706-4E9F-BA3B-832C80860222}.Release|Win32.ActiveCfg = Release|Win32
 		{04736B6C-5706-4E9F-BA3B-832C80860222}.Release|Win32.Build.0 = Release|Win32
+		{F9CB92BE-6949-4374-B500-E528EFDEF071}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9CB92BE-6949-4374-B500-E528EFDEF071}.Debug|Win32.Build.0 = Debug|Win32
+		{F9CB92BE-6949-4374-B500-E528EFDEF071}.Release|Win32.ActiveCfg = Release|Win32
+		{F9CB92BE-6949-4374-B500-E528EFDEF071}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
