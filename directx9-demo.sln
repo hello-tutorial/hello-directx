@@ -61,6 +61,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_LaserSystem", "31_LaserS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_Pick", "32_Pick\32_Pick.vcproj", "{3B94863E-F52B-4D99-B663-9A1880B628EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33_VSTransform", "33_VSTransform\33_VSTransform.vcproj", "{DB328768-10E3-4F9A-A347-8A36FDAA6F7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34_VSDiffuseLighting", "34_VSDiffuseLighting\34_VSDiffuseLighting.vcproj", "{6F7362D7-23E8-460F-AB3C-ED15F21D2F26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -187,6 +191,14 @@ Global
 		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Debug|Win32.Build.0 = Debug|Win32
 		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Release|Win32.ActiveCfg = Release|Win32
 		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Release|Win32.Build.0 = Release|Win32
+		{DB328768-10E3-4F9A-A347-8A36FDAA6F7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB328768-10E3-4F9A-A347-8A36FDAA6F7B}.Debug|Win32.Build.0 = Debug|Win32
+		{DB328768-10E3-4F9A-A347-8A36FDAA6F7B}.Release|Win32.ActiveCfg = Release|Win32
+		{DB328768-10E3-4F9A-A347-8A36FDAA6F7B}.Release|Win32.Build.0 = Release|Win32
+		{6F7362D7-23E8-460F-AB3C-ED15F21D2F26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F7362D7-23E8-460F-AB3C-ED15F21D2F26}.Debug|Win32.Build.0 = Debug|Win32
+		{6F7362D7-23E8-460F-AB3C-ED15F21D2F26}.Release|Win32.ActiveCfg = Release|Win32
+		{6F7362D7-23E8-460F-AB3C-ED15F21D2F26}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
