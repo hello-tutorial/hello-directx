@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_FireworkSystem", "30_Fir
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_LaserSystem", "31_LaserSystem\31_LaserSystem.vcproj", "{9FCBBFB3-DF7B-4CE5-9681-5BB6B1AC9E92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_Pick", "32_Pick\32_Pick.vcproj", "{3B94863E-F52B-4D99-B663-9A1880B628EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -181,6 +183,10 @@ Global
 		{9FCBBFB3-DF7B-4CE5-9681-5BB6B1AC9E92}.Debug|Win32.Build.0 = Debug|Win32
 		{9FCBBFB3-DF7B-4CE5-9681-5BB6B1AC9E92}.Release|Win32.ActiveCfg = Release|Win32
 		{9FCBBFB3-DF7B-4CE5-9681-5BB6B1AC9E92}.Release|Win32.Build.0 = Release|Win32
+		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Debug|Win32.Build.0 = Debug|Win32
+		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Release|Win32.ActiveCfg = Release|Win32
+		{3B94863E-F52B-4D99-B663-9A1880B628EA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
