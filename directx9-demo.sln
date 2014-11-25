@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_VSToon", "35_VSToon\35_V
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_VSToonWithOutlines", "36_VSToonWithOutlines\36_VSToonWithOutlines.vcproj", "{35A96A7C-6F14-425D-8D76-D42100FFA384}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "37_PSMultiTexture", "37_PSMultiTexture\37_PSMultiTexture.vcproj", "{24BA9C3B-D9E9-46C2-A85C-5AF9CD44A91C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -211,6 +213,10 @@ Global
 		{35A96A7C-6F14-425D-8D76-D42100FFA384}.Debug|Win32.Build.0 = Debug|Win32
 		{35A96A7C-6F14-425D-8D76-D42100FFA384}.Release|Win32.ActiveCfg = Release|Win32
 		{35A96A7C-6F14-425D-8D76-D42100FFA384}.Release|Win32.Build.0 = Release|Win32
+		{24BA9C3B-D9E9-46C2-A85C-5AF9CD44A91C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24BA9C3B-D9E9-46C2-A85C-5AF9CD44A91C}.Debug|Win32.Build.0 = Debug|Win32
+		{24BA9C3B-D9E9-46C2-A85C-5AF9CD44A91C}.Release|Win32.ActiveCfg = Release|Win32
+		{24BA9C3B-D9E9-46C2-A85C-5AF9CD44A91C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
