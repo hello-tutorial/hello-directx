@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "39_FogEffect", "39_FogEffec
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "40_CartoonEffect", "40_CartoonEffect\40_CartoonEffect.vcproj", "{7359A2D3-4DD6-4814-BFB3-EA4F72598778}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Appendix_HelloWorld", "Appendix_HelloWorld\Appendix_HelloWorld.vcproj", "{91B790F5-5575-4BFD-B47C-81A18150C960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -235,6 +237,10 @@ Global
 		{7359A2D3-4DD6-4814-BFB3-EA4F72598778}.Debug|Win32.Build.0 = Debug|Win32
 		{7359A2D3-4DD6-4814-BFB3-EA4F72598778}.Release|Win32.ActiveCfg = Release|Win32
 		{7359A2D3-4DD6-4814-BFB3-EA4F72598778}.Release|Win32.Build.0 = Release|Win32
+		{91B790F5-5575-4BFD-B47C-81A18150C960}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91B790F5-5575-4BFD-B47C-81A18150C960}.Debug|Win32.Build.0 = Debug|Win32
+		{91B790F5-5575-4BFD-B47C-81A18150C960}.Release|Win32.ActiveCfg = Release|Win32
+		{91B790F5-5575-4BFD-B47C-81A18150C960}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
