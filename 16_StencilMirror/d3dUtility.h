@@ -119,7 +119,7 @@ namespace d3d
 	// Constants
 	//
 
-	const float INFINITY = std::numeric_limits<float>::infinity();
+	//const float INFINITY = std::numeric_limits<float>::infinity();
 	const float EPSILON  = 0.001f;
 
 	//

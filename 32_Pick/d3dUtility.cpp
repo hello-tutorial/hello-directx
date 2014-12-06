@@ -70,9 +70,9 @@ bool d3d::InitD3D(
 	// Step 1: Create the IDirect3D9 object.
 
 	IDirect3D9* d3d9 = 0;
-    d3d9 = Direct3DCreate9(D3D_SDK_VERSION);
+	d3d9 = Direct3DCreate9(D3D_SDK_VERSION);
 
-    if( !d3d9 )
+	if( !d3d9 )
 	{
 		::MessageBox(0, "Direct3DCreate9() - FAILED", 0, 0);
 		return false;
@@ -114,8 +114,8 @@ bool d3d::InitD3D(
 		deviceType,         // device type
 		hwnd,               // window associated with device
 		vp,                 // vertex processing
-	    &d3dpp,             // present parameters
-	    device);            // return created device
+		&d3dpp,             // present parameters
+		device);            // return created device
 
 	if( FAILED(hr) )
 	{
@@ -158,16 +158,16 @@ int d3d::EnterMsgLoop( bool (*ptr_display)(float timeDelta) )
 			::DispatchMessage(&msg);
 		}
 		else
-        {	
+		{	
 			float currTime  = (float)timeGetTime();
 			float timeDelta = (currTime - lastTime)*0.001f;
 
 			ptr_display(timeDelta);
 
 			lastTime = currTime;
-        }
-    }
-    return msg.wParam;
+		}
+	}
+	return msg.wParam;
 }
 
 D3DLIGHT9 d3d::InitDirectionalLight(D3DXVECTOR3* direction, D3DXCOLOR* color)
@@ -239,13 +239,13 @@ D3DMATERIAL9 d3d::InitMtrl(D3DXCOLOR a, D3DXCOLOR d, D3DXCOLOR s, D3DXCOLOR e, f
 d3d::BoundingBox::BoundingBox()
 {
 	// infinite small 
-	_min.x = d3d::INFINITY;
-	_min.y = d3d::INFINITY;
-	_min.z = d3d::INFINITY;
+	_min.x = INFINITY;
+	_min.y = INFINITY;
+	_min.z = INFINITY;
 
-	_max.x = -d3d::INFINITY;
-	_max.y = -d3d::INFINITY;
-	_max.z = -d3d::INFINITY;
+	_max.x = -INFINITY;
+	_max.y = -INFINITY;
+	_max.z = -INFINITY;
 }
 
 bool d3d::BoundingBox::isPointInside(D3DXVECTOR3& p)

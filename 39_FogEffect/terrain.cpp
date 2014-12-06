@@ -369,7 +369,7 @@ bool Terrain::readRawFile(std::string fileName)
 
 	std::ifstream inFile(fileName.c_str(), std::ios_base::binary);
 
-	if( inFile == 0 )
+	if( !inFile.is_open() )
 		return false;
 
 	inFile.read(
@@ -410,11 +410,11 @@ float Terrain::getHeight(float x, float z)
 
 	// get the heights of the quad we're in:
 	// 
-    //  A   B
-    //  *---*
-    //  | / |
-    //  *---*  
-    //  C   D
+	//  A   B
+	//  *---*
+	//  | / |
+	//  *---*  
+	//  C   D
 
 	float A = getHeightmapEntry(row,   col);
 	float B = getHeightmapEntry(row,   col+1);

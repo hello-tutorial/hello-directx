@@ -66,9 +66,9 @@ bool d3d::InitD3D(
 	// Step 1: Create the IDirect3D9 object.
 
 	IDirect3D9* d3d9 = 0;
-    d3d9 = Direct3DCreate9(D3D_SDK_VERSION);
+	d3d9 = Direct3DCreate9(D3D_SDK_VERSION);
 
-    if( !d3d9 )
+	if( !d3d9 )
 	{
 		::MessageBox(0, "Direct3DCreate9() - FAILED", 0, 0);
 		return false;
@@ -110,8 +110,8 @@ bool d3d::InitD3D(
 		deviceType,         // device type
 		hwnd,               // window associated with device
 		vp,                 // vertex processing
-	    &d3dpp,             // present parameters
-	    device);            // return created device
+		&d3dpp,             // present parameters
+		device);            // return created device
 
 	if( FAILED(hr) )
 	{
@@ -154,16 +154,16 @@ int d3d::EnterMsgLoop( bool (*ptr_display)(float timeDelta) )
 			::DispatchMessage(&msg);
 		}
 		else
-        {	
+		{	
 			float currTime  = (float)timeGetTime();
 			float timeDelta = (currTime - lastTime)*0.001f;
 
 			ptr_display(timeDelta);
 
 			lastTime = currTime;
-        }
-    }
-    return msg.wParam;
+		}
+	}
+	return msg.wParam;
 }
 
 

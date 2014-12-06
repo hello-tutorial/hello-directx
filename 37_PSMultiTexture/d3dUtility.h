@@ -117,7 +117,7 @@ namespace d3d
 	// Constants
 	//
 
-	const float INFINITY = FLT_MAX;
+//	const float INFINITY = FLT_MAX;
 	const float EPSILON  = 0.001f;
 
 	//

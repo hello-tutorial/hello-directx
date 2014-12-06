@@ -23,7 +23,7 @@ const int Width  = 640;
 const int Height = 480;
 
 IDirect3DVertexBuffer9* Triangle = 0; // vertex buffer to store
-                                      // our triangle data.
+									  // our triangle data.
 
 //
 // Classes and Structures
